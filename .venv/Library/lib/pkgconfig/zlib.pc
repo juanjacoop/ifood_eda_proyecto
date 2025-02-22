@@ -1,0 +1,13 @@
+prefix=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library
+exec_prefix=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library
+libdir=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library/lib
+sharedlibdir=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library/lib
+includedir=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

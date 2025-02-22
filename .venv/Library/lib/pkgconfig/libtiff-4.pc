@@ -1,0 +1,12 @@
+prefix=C:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.5.1
+Libs: -L${libdir} -ltiff
+Libs.private:  -ldeflate -lLerc
+Cflags: -I${includedir}
+Requires.private:  zlib libjpeg liblzma libzstd

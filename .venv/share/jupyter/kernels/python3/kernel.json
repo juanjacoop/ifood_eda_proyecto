@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "c:/Users/Juan/Documents/VsCode/ProyectoPrediccion_Projects/ifood_proyecto_1/.venv\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
